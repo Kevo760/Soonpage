@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/841c7a5d94.js" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+
 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -29,11 +29,11 @@
   <p class="subscribe">Subscribe and get notified</p>
   </div>
 
-    <form>
+    <form id='form'>
 
       <input style="order: 1" type="email" id="email" placeholder="You email address..." />
-      <button style="order: 3">Notify Me</button>
-      <small style="order: 2" class="error">Error</small>
+      <button type="submit" style="order: 3">Notify Me</button>
+      <small style="order: 2">Please provide a valid email address</small>
 
     </form>
 
@@ -52,7 +52,7 @@
 
   <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
 </footer>
-
+  <script src="script.js"></script>
 </main>
 </body>
 </html>
